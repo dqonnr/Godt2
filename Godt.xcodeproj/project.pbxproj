@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21044A531CF4E41700FA798D /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21044A511CF4E41700FA798D /* Recipe.swift */; };
+		21044A551CF4E71300FA798D /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21044A541CF4E71300FA798D /* CoreDataStack.swift */; };
+		2125F8F91CEFB14A00D57E1D /* RecipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2125F8F81CEFB14A00D57E1D /* RecipeCollectionViewCell.swift */; };
+		2125F8FB1CF0AD6700D57E1D /* RecipeInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2125F8FA1CF0AD6700D57E1D /* RecipeInfoViewController.swift */; };
+		21467A511CEFA3290028173C /* RecipeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21467A501CEFA3290028173C /* RecipeDataSource.swift */; };
+		2175FBE41CF3A38A003EF2CA /* Godt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2175FBE21CF3A38A003EF2CA /* Godt.xcdatamodeld */; };
+		217C99B11CFA4104006C3DE5 /* RecipeImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217C99B01CFA4104006C3DE5 /* RecipeImageStore.swift */; };
+		217C99B31CFA4355006C3DE5 /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217C99B21CFA4355006C3DE5 /* Recipe+CoreDataProperties.swift */; };
+		219B69491CE5967B00A8706F /* GodtAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219B69481CE5967B00A8706F /* GodtAPI.swift */; };
+		219B694B1CE59AC300A8706F /* RecipeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219B694A1CE59AC300A8706F /* RecipeStore.swift */; };
+		219B694D1CE59DDD00A8706F /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219B694C1CE59DDD00A8706F /* RecipesViewController.swift */; };
+		219FEB551CE513D300017817 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219FEB541CE513D300017817 /* AppDelegate.swift */; };
+		219FEB5A1CE513D300017817 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219FEB581CE513D300017817 /* Main.storyboard */; };
+		219FEB5C1CE513D300017817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 219FEB5B1CE513D300017817 /* Assets.xcassets */; };
+		219FEB5F1CE513D300017817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219FEB5D1CE513D300017817 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21044A511CF4E41700FA798D /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Recipe.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		21044A541CF4E71300FA798D /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = CoreDataStack.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2125F8F81CEFB14A00D57E1D /* RecipeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = RecipeCollectionViewCell.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2125F8FA1CF0AD6700D57E1D /* RecipeInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = RecipeInfoViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		21467A501CEFA3290028173C /* RecipeDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = RecipeDataSource.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2175FBE31CF3A38A003EF2CA /* Godt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Godt.xcdatamodel; sourceTree = "<group>"; };
+		217C99B01CFA4104006C3DE5 /* RecipeImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = RecipeImageStore.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		217C99B21CFA4355006C3DE5 /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = "Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		219B69481CE5967B00A8706F /* GodtAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = GodtAPI.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		219B694A1CE59AC300A8706F /* RecipeStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = RecipeStore.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		219B694C1CE59DDD00A8706F /* RecipesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = RecipesViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		219FEB511CE513D300017817 /* Godt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Godt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		219FEB541CE513D300017817 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		219FEB591CE513D300017817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		219FEB5B1CE513D300017817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		219FEB5E1CE513D300017817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		219FEB601CE513D300017817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		219FEB4E1CE513D300017817 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		219FEB481CE513D300017817 = {
+			isa = PBXGroup;
+			children = (
+				219FEB531CE513D300017817 /* Godt */,
+				219FEB521CE513D300017817 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		219FEB521CE513D300017817 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				219FEB511CE513D300017817 /* Godt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		219FEB531CE513D300017817 /* Godt */ = {
+			isa = PBXGroup;
+			children = (
+				21044A511CF4E41700FA798D /* Recipe.swift */,
+				21044A541CF4E71300FA798D /* CoreDataStack.swift */,
+				219FEB541CE513D300017817 /* AppDelegate.swift */,
+				219FEB581CE513D300017817 /* Main.storyboard */,
+				219FEB5B1CE513D300017817 /* Assets.xcassets */,
+				219FEB5D1CE513D300017817 /* LaunchScreen.storyboard */,
+				219FEB601CE513D300017817 /* Info.plist */,
+				219B69481CE5967B00A8706F /* GodtAPI.swift */,
+				219B694A1CE59AC300A8706F /* RecipeStore.swift */,
+				219B694C1CE59DDD00A8706F /* RecipesViewController.swift */,
+				21467A501CEFA3290028173C /* RecipeDataSource.swift */,
+				2175FBE21CF3A38A003EF2CA /* Godt.xcdatamodeld */,
+				2125F8F81CEFB14A00D57E1D /* RecipeCollectionViewCell.swift */,
+				2125F8FA1CF0AD6700D57E1D /* RecipeInfoViewController.swift */,
+				217C99B01CFA4104006C3DE5 /* RecipeImageStore.swift */,
+				217C99B21CFA4355006C3DE5 /* Recipe+CoreDataProperties.swift */,
+			);
+			path = Godt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		219FEB501CE513D300017817 /* Godt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219FEB631CE513D300017817 /* Build configuration list for PBXNativeTarget "Godt" */;
+			buildPhases = (
+				219FEB4D1CE513D300017817 /* Sources */,
+				219FEB4E1CE513D300017817 /* Frameworks */,
+				219FEB4F1CE513D300017817 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Godt;
+			productName = Godt;
+			productReference = 219FEB511CE513D300017817 /* Godt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		219FEB491CE513D300017817 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Kweth;
+				TargetAttributes = {
+					219FEB501CE513D300017817 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3Z32M9AYN4;
+					};
+				};
+			};
+			buildConfigurationList = 219FEB4C1CE513D300017817 /* Build configuration list for PBXProject "Godt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 219FEB481CE513D300017817;
+			productRefGroup = 219FEB521CE513D300017817 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				219FEB501CE513D300017817 /* Godt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		219FEB4F1CE513D300017817 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219FEB5F1CE513D300017817 /* LaunchScreen.storyboard in Resources */,
+				219FEB5C1CE513D300017817 /* Assets.xcassets in Resources */,
+				219FEB5A1CE513D300017817 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		219FEB4D1CE513D300017817 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219B69491CE5967B00A8706F /* GodtAPI.swift in Sources */,
+				217C99B11CFA4104006C3DE5 /* RecipeImageStore.swift in Sources */,
+				219B694B1CE59AC300A8706F /* RecipeStore.swift in Sources */,
+				219FEB551CE513D300017817 /* AppDelegate.swift in Sources */,
+				219B694D1CE59DDD00A8706F /* RecipesViewController.swift in Sources */,
+				2175FBE41CF3A38A003EF2CA /* Godt.xcdatamodeld in Sources */,
+				21044A551CF4E71300FA798D /* CoreDataStack.swift in Sources */,
+				2125F8FB1CF0AD6700D57E1D /* RecipeInfoViewController.swift in Sources */,
+				2125F8F91CEFB14A00D57E1D /* RecipeCollectionViewCell.swift in Sources */,
+				217C99B31CFA4355006C3DE5 /* Recipe+CoreDataProperties.swift in Sources */,
+				21467A511CEFA3290028173C /* RecipeDataSource.swift in Sources */,
+				21044A531CF4E41700FA798D /* Recipe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		219FEB581CE513D300017817 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219FEB591CE513D300017817 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		219FEB5D1CE513D300017817 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219FEB5E1CE513D300017817 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		219FEB611CE513D300017817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		219FEB621CE513D300017817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		219FEB641CE513D300017817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Godt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kweth.Godt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		219FEB651CE513D300017817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Godt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kweth.Godt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		219FEB4C1CE513D300017817 /* Build configuration list for PBXProject "Godt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219FEB611CE513D300017817 /* Debug */,
+				219FEB621CE513D300017817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		219FEB631CE513D300017817 /* Build configuration list for PBXNativeTarget "Godt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219FEB641CE513D300017817 /* Debug */,
+				219FEB651CE513D300017817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2175FBE21CF3A38A003EF2CA /* Godt.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2175FBE31CF3A38A003EF2CA /* Godt.xcdatamodel */,
+			);
+			currentVersion = 2175FBE31CF3A38A003EF2CA /* Godt.xcdatamodel */;
+			path = Godt.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 219FEB491CE513D300017817 /* Project object */;
+}
